@@ -11,7 +11,7 @@ const Header = () => (
         <HStack spacing={8}>
           <Link as={RouterLink} to="/">Home</Link>
           <Link as={RouterLink} to="/events">Events</Link>
-          <Link as={RouterLink} to="/create-event">Create Event</Link>
+          <Link as={RouterLink} to="/create-event">Create an Event</Link>
           <Link as={RouterLink} to="/profile">Profile</Link>
         </HStack>
       </Flex>
