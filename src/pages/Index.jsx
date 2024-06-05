@@ -13,6 +13,9 @@ const Header = () => (
           <Link as={RouterLink} to="/events">Events</Link>
           <Link as={RouterLink} to="/create-event">Create an Event</Link>
           <Link as={RouterLink} to="/profile">Profile</Link>
+          <Link as={RouterLink} to="/event/1">Event One</Link>
+          <Link as={RouterLink} to="/event/2">Event Two</Link>
+          <Link as={RouterLink} to="/event/3">Event Three</Link>
         </HStack>
       </Flex>
     </Container>
